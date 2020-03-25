@@ -11,17 +11,17 @@ public class DifferentProblem
 {
    public static void main(String[] args)
    {
-    Scanner console = new Scanner(System.in);
-    long one = 0;
-    long two = 0;
-    
-    while(console.hasNext())
-    {
-        one = console.nextLong();
-        two = console.nextLong();
-        
-        System.out.println(Math.abs(two - one));
-    }
+       Scanner console = new Scanner(System.in);
+       long one = 0;
+       long two = 0;
+
+       while(console.hasNext())
+       {
+           one = console.nextLong();
+           two = console.nextLong();
+
+           System.out.println(Math.abs(two - one));
+       }
    }
 }
 /*
